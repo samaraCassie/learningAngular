@@ -1,0 +1,14 @@
+input{
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgba(26, 26, 26, 0.925);
+  margin: 10px;
+  margin-top: 0;
+  width: 90%;
+  height: 15%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.campo p{
+  padding: 0px 0px 0px;
+  margin-bottom: 0;
+}
+
+.campo{
+  margin-left: 3%;
+}
+
+form{
+  position: relative;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  box-shadow: 5px 5px 15px rgba(26, 26, 26, 0.747);
+  padding: 2% 4% 3%;
+  width: 50%;
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

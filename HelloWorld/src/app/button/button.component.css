@@ -1,0 +1,20 @@
+button{
+  background: linear-gradient(to left, rgb(84, 13, 248), rgb(224, 46, 224));
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 5px rgba(15, 15, 15, 0.719);
+  width: 9vmax;
+  height: 7vmin;
+  border-radius: 8px;
+  border: none;
+  position: relative;
+  margin-top: 4%;
+  margin-left: 75%;
+  cursor: pointer;
+}
+
+button:hover{
+  background: linear-gradient(to right, rgb(84, 13, 248), rgb(224, 46, 224));
+  transition: all .2s ease-in-out;
+  width: 9.3vmax;
+  height: 7.3vmin;
+}
