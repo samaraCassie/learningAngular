@@ -10,9 +10,9 @@ export class AppComponent {
   cadastrar:String = "Cadastrar";
   limpar:String = "Limpar";
 
-  addClass();
+  //addClass();
 }
 
-const addClass () => {
-  
+export const addClassError = () => {
+
 }
