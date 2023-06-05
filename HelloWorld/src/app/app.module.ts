@@ -12,7 +12,8 @@ import { PagHomeComponent } from './pag-home/pag-home.component';
 import { PagProdComponent } from './pag-prod/pag-prod.component';
 import { PagPedidosComponent } from './pag-pedidos/pag-pedidos.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { MatGridListModule} from '@angular/material/grid-list';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MatGridListModule} from '@angular/material/grid-list';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSlideToggleModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,11 @@
 <p>pag-prod works!</p>
+
+<mat-grid-list cols="4" rowHeight="fit" [style.height]="'100px'" [gutterSize]="'2px'">
+    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="1" [rowspan]="1">
+        Tile content
+        <mat-grid-tile-footer>
+            <h3 mat-line>Heading</h3>
+            <span mat-line>Sub heading</span>
+        </mat-grid-tile-footer>
+    </mat-grid-tile>
+</mat-grid-list>
